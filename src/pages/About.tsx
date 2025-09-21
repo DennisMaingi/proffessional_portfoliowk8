@@ -1,4 +1,5 @@
 import { Download, Award, Code2, Shield, BookOpen, Newspaper, Monitor, Smartphone } from "lucide-react";
+import profileImage from "@/assets/profile.png";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
@@ -50,10 +51,17 @@ const About = () => {
   ];
 
   return (
-    <div className="min-h-screen bg-background pt-20">
+    <div className="min-h-screen gradient-hero-bg pt-20">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
         {/* Header Section */}
         <div className="text-center mb-16 animate-slide-up">
+          <div className="w-32 h-32 mx-auto mb-6 rounded-full gradient-hero p-2 shadow-2xl">
+            <img 
+              src={profileImage} 
+              alt="Dennis Maingi - Software Engineer" 
+              className="w-full h-full rounded-full object-cover shadow-xl"
+            />
+          </div>
           <h1 className="text-4xl md:text-5xl font-bold mb-6">
             About <span className="gradient-hero bg-clip-text text-transparent">Dennis Maingi</span>
           </h1>

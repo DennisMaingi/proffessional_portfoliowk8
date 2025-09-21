@@ -1,4 +1,5 @@
 import { ArrowRight, Code2, Shield, Users, Download, Github, Linkedin, Mail } from "lucide-react";
+import profileImage from "@/assets/profile.png";
 import { Link } from "react-router-dom";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
@@ -31,7 +32,7 @@ const Index = () => {
   ];
 
   return (
-    <div className="min-h-screen bg-background">
+    <div className="min-h-screen gradient-hero-bg">
       {/* Hero Section */}
       <section className="pt-20 pb-12 lg:pt-32 lg:pb-20">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -95,15 +96,15 @@ const Index = () => {
               </div>
             </div>
 
-            {/* Hero Image/Visual */}
+            {/* Profile Image */}
             <div className="relative animate-slide-up">
               <div className="relative">
-                <div className="w-80 h-80 mx-auto rounded-full gradient-hero animate-float"></div>
-                <div className="absolute inset-0 flex items-center justify-center">
-                  <div className="text-center text-white">
-                    <Code2 className="h-24 w-24 mx-auto mb-4 animate-pulse" />
-                    <p className="text-lg font-semibold">Building the Future</p>
-                  </div>
+                <div className="w-80 h-80 mx-auto rounded-full gradient-hero p-2 animate-float shadow-2xl">
+                  <img 
+                    src={profileImage} 
+                    alt="Dennis Maingi - Software Engineer" 
+                    className="w-full h-full rounded-full object-cover shadow-xl"
+                  />
                 </div>
               </div>
               
@@ -123,7 +124,7 @@ const Index = () => {
       </section>
 
       {/* Skills Section */}
-      <section className="py-20 bg-muted/20">
+      <section className="py-20 gradient-section">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16 animate-slide-up">
             <h2 className="text-3xl md:text-4xl font-bold mb-4">
@@ -206,7 +207,7 @@ const Index = () => {
       </section>
 
       {/* CTA Section */}
-      <section className="py-20 bg-muted/20">
+      <section className="py-20 gradient-section">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center animate-slide-up">
           <Card className="gradient-card border-0 shadow-xl">
             <CardContent className="p-12">

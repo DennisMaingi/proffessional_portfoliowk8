@@ -52,7 +52,7 @@ const Index = () => {
                 <p className="text-lg text-muted-foreground leading-relaxed max-w-2xl">
                   I craft secure, scalable web applications with a unique blend of technical expertise 
                   and communication skills. From fullstack development to cybersecurity solutions, 
-                  I bring ideas to life with clean code and thoughtful design.
+                  I bring innovative ideas to life with clean code and thoughtful design.
                 </p>
               </div>
 
@@ -131,7 +131,7 @@ const Index = () => {
               What I <span className="gradient-hero bg-clip-text text-transparent">Specialize In</span>
             </h2>
             <p className="text-muted-foreground text-lg max-w-2xl mx-auto">
-              Combining technical expertise with creative problem-solving to deliver exceptional digital experiences.
+              Combining technical expertise with creative problem-solving to deliver exceptional digital experiences that make a difference.
             </p>
           </div>
 
@@ -166,7 +166,7 @@ const Index = () => {
               Featured <span className="gradient-hero bg-clip-text text-transparent">Projects</span>
             </h2>
             <p className="text-muted-foreground text-lg max-w-2xl mx-auto">
-              A showcase of recent work demonstrating my skills in web development and problem-solving.
+              A showcase of recent work demonstrating my skills in web development, cybersecurity, and innovative problem-solving.
             </p>
           </div>
 
@@ -216,7 +216,7 @@ const Index = () => {
               </h2>
               <p className="text-lg text-muted-foreground mb-8 max-w-2xl mx-auto">
                 I'm available for freelance projects and full-time opportunities. 
-                Let's discuss how we can bring your ideas to life.
+                Let's discuss how we can bring your innovative ideas to life with cutting-edge technology.
               </p>
               <div className="flex flex-col sm:flex-row gap-4 justify-center">
                 <Button asChild size="lg" className="gradient-primary hover:scale-105 transition-transform">
